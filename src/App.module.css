@@ -6,11 +6,14 @@
 
 .AppHeader div {
   margin: auto;
-  width: max-content;
 }
 
 .AppHeader h1,p {
   margin: 0;
+}
+
+.AppHeader br {
+  display: none;
 }
 
 .AppHeader h1 {
@@ -40,7 +43,7 @@
 @media screen and (min-width: 768px) {
   .AppHeader {
       padding: 2rem 3rem;
-    }
+  }
   
     .AppHeader h1 {
       font-size: 2em;
@@ -48,6 +51,10 @@
   
     .AppHeader p,a {
       font-size: 17px;
+    }
+
+    .AppHeader br {
+      display: block;
     }
 }
 
@@ -64,4 +71,8 @@
   a {
     font-size: 20px;
   }
+}
+
+.AppMain {
+  
 }
