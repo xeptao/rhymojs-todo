@@ -1,5 +1,5 @@
-function App() {
-  return <div></div>;
-}
+import React from "react";
 
-export default App;
+export const App: React.FC = () => {
+  return <div></div>;
+};
