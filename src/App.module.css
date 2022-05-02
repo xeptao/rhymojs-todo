@@ -1,0 +1,67 @@
+.AppHeader {
+  background: #34354B;
+  color: #AFB3F7;
+  padding: 1rem 2rem;
+}
+
+.AppHeader div {
+  margin: auto;
+  width: max-content;
+}
+
+.AppHeader h1,p {
+  margin: 0;
+}
+
+.AppHeader h1 {
+  margin-bottom: 1rem;
+  letter-spacing: -0.05rem;
+  font-size: 25px;
+}
+
+.AppHeader p,a {
+  line-height: 1.3;
+  letter-spacing: -0.03rem;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.AppHeader a {
+  color: #d2d4ff;
+  text-decoration: none;
+}
+
+.AppHeader a:hover {
+  color: #b5b9ff;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) {
+  .AppHeader {
+      padding: 2rem 3rem;
+    }
+  
+    .AppHeader h1 {
+      font-size: 2em;
+    }
+  
+    .AppHeader p,a {
+      font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  .AppHeader {
+    padding: 3rem 4rem;
+  }
+
+  .AppHeader h1 {
+    font-size: 3em;
+  }
+
+  .AppHeader p,
+  a {
+    font-size: 20px;
+  }
+}
